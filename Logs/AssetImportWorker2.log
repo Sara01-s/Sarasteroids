@@ -2623,3 +2623,115 @@ Received Import Request.
   path: Assets/Scripts/SpawnerAsteroides.cs
   artifactKey: Guid(423efb026d281114f9e3d6b3acca79fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/SpawnerAsteroides.cs using Guid(423efb026d281114f9e3d6b3acca79fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '179094c4ae6a4ad522533e276df32010') in 0.014143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3301.220149 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.005476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 109.251061 seconds.
+  path: Assets/Scripts/Bala.cs
+  artifactKey: Guid(e34a57aef4e55fe44bed00d7507c4e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Bala.cs using Guid(e34a57aef4e55fe44bed00d7507c4e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71a22a1e36738391146b062ed400330') in 0.006167 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005089 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Arcos\Segundo año\Progra\Sarasteroids\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Arcos\Segundo año\Progra\Sarasteroids\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.438 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1472ms)
+		BeginReloadAssembly (251ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (86ms)
+		EndReloadAssembly (1081ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (340ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (508ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (335ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3370 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.1 KB). Loaded Objects now: 3962.
+Memory consumption went from 121.0 MB to 120.9 MB.
+Total: 5.417500 ms (FindLiveObjects: 0.340400 ms CreateObjectMapping: 0.240900 ms MarkObjects: 4.668600 ms  DeleteObjects: 0.166400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1162.852108 seconds.
+  path: Assets/Builds
+  artifactKey: Guid(3b0a4072ef51d4940aa028b80f232c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Builds using Guid(3b0a4072ef51d4940aa028b80f232c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59a9982e7122f664830391fb8369fe2') in 0.011949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.320673 seconds.
+  path: Assets/Builds/v1.0
+  artifactKey: Guid(07312b16e9d26c742a6bca67ca7c5df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Builds/v1.0 using Guid(07312b16e9d26c742a6bca67ca7c5df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43c7e233e3639111f60cec24381849e') in 0.006446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 336.693870 seconds.
+  path: Assets/StreamingAssets
+  artifactKey: Guid(cdd9ff7ed8224444f9f7c5dba0b130b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets using Guid(cdd9ff7ed8224444f9f7c5dba0b130b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53192b95bf46a674371393e10a1c9b7f') in 0.007810 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (75.5 KB). Loaded Objects now: 3962.
+Memory consumption went from 53.9 MB to 53.9 MB.
+Total: 3.439500 ms (FindLiveObjects: 0.272400 ms CreateObjectMapping: 0.186800 ms MarkObjects: 2.865000 ms  DeleteObjects: 0.114700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 125.545539 seconds.
+  path: Assets/Prefabs/Asteroide Chico.prefab
+  artifactKey: Guid(50e84f09fd9b6b34e92457ac9a013126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroide Chico.prefab using Guid(50e84f09fd9b6b34e92457ac9a013126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd65011a60109d4ca0b96555b42ddf11') in 0.114313 seconds 

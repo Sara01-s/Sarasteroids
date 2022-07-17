@@ -8,7 +8,7 @@ public class SpawnerAsteroides : MonoBehaviour {
     private float _timer;
     private int _numeroAsteroides = 0;
 
-    // Uso método (usado en Asteroide.cs (línea 49))
+    // Uso método (usado en Asteroide.cs (línea 52))
     public void RestarAsteroide() {
         _numeroAsteroides--;
     }
