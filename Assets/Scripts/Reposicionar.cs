@@ -4,7 +4,8 @@ public class Reposicionar : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other) {
         if (other.CompareTag("Borde")) {
-
+            
+            // Obtener tipo de borde (Izquierda, derecha, arriba o abajo)
             Borde.TipoBorde bordeChocado = other.GetComponent<Borde>().GetTipoBorde();
 
             switch (bordeChocado) {
