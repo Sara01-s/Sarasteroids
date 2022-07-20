@@ -14,26 +14,26 @@ public class SpawnerAsteroides : MonoBehaviour {
     }
 
     private void Awake() {
-        // Establecer timer a 5 segundos
+        // Establecer timer al tiempo de spawn establecido (por defecto 5 segundos)
         _timer = _intervaloSpawn;
 
-        // Asegurarse que el spawner está en (0, 0)
+        // Asegurarse que el spawner está en (0, 0, 0)
         transform.position = Vector3.zero;
     }
 
     private void Update() {
-        if (_numeroAsteroides <= _maxAsteroides) {
+        if (_numeroAsteroides <= _maxAsteroides) { // Límite de asteroides en pantalla
             if (_timer <= 0) {
-                // Spawnear asteroides
+                // Spawnear asteroides variables random
                 float _randomX = Random.Range(transform.position.y - 4f, transform.position.y + 6);
                 float _randomY = Random.Range(transform.position.x + 5f, transform.position.x - 5);
                 Vector3 posicionRandom = new Vector3(_randomX, _randomY, 0f);
-                Quaternion rotacionRandom = Quaternion.Euler(0f, 0f, Random.Range(0f, 360f));
+                Quaternion rotacionRandom = Quaternion.Euler(0f, 0f, Random.Range(0f, 359f));
 
                 Instantiate(_prefabAsteroide, posicionRandom, rotacionRandom, transform);
                 _numeroAsteroides++;
 
-                // Resetear timer a 5 segundos
+                // Resetear timer al tiempo de spawn establecido (por defecto 5 segundos)
                 _timer = _intervaloSpawn;
             }
             else {

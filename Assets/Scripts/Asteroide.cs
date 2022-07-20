@@ -11,6 +11,11 @@ public class Asteroide : MonoBehaviour {
     private SpawnerAsteroides _spawnerPadre;
     private bool _esGrande;
 
+    private void Update() {
+        // Ir hacia el "arriba" del objeto en todo momento
+        transform.position += transform.up * _velocidad * Time.deltaTime;
+    }
+
     private void Awake() {
         // Obtener referencia del objeto padre que creó este asteroide
         // Esta referencia siempre existe ya que el padre instancia asteroides como hijos
@@ -31,11 +36,6 @@ public class Asteroide : MonoBehaviour {
                 _velocidad = 8f;
             break;
         }
-    }
-    
-    private void Update() {
-        // Ir hacia el "arriba" del objeto en todo momento
-        transform.position += transform.up * _velocidad * Time.deltaTime;
     }
 
     private void OnTriggerEnter(Collider other) {
