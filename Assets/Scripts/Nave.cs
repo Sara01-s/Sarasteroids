@@ -14,7 +14,7 @@ public class Nave : MonoBehaviour {
     public float _velMovimientoMax = 0.5f;
 
     [Header("Variables Rotación")]
-    [Range(0f, 10f)] public float _angularDragInicial;
+    [Range(0f, 25f)] public float _angularDragInicial;
     [Range(0f, 1f)] public float _factorAngularDrag;
 
     public float _fuerzaDeRotacion;
@@ -36,15 +36,25 @@ public class Nave : MonoBehaviour {
                            _velRotacionMax : _rb.angularDrag -= factorAcelaracion;
     }
 
+    private void LimitarVelocidad() {
+        _rb.velocity = Vector3.ClampMagnitude(_rb.velocity, 10f);
+    }
+
     private void FixedUpdate() {
         // Movimiento
+        
+
         if (Input.GetKey(KeyCode.UpArrow)) {
+            LimitarVelocidad();
+
             _rb.AddRelativeForce(Vector3.up * _fuerzaDeMovimiento * _dirPositiva);
             _rb.drag = 0f;
             return;
         }
 
         if (Input.GetKey(KeyCode.DownArrow)) {
+            LimitarVelocidad();
+
             _rb.AddRelativeForce(Vector3.up * _fuerzaDeMovimiento * _dirNegativa);
             _rb.drag = 0f;
             return;

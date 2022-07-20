@@ -36,13 +36,13 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Nave.cs" />
      <Compile Include="Assets\Scripts\Disparador.cs" />
+     <Compile Include="Assets\Scripts\SpawnerAsteroides.cs" />
+     <Compile Include="Assets\Scripts\Reposicionar.cs" />
      <Compile Include="Assets\Scripts\Bala.cs" />
      <Compile Include="Assets\Scripts\Asteroide.cs" />
-     <Compile Include="Assets\Scripts\SpawnerAsteroides.cs" />
      <Compile Include="Assets\Scripts\Borde.cs" />
-     <Compile Include="Assets\Scripts\Reposicionar.cs" />
+     <Compile Include="Assets\Scripts\Nave.cs" />
      <None Include="Assets\Scripts\Asteroids.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>D:\Disco duro\Unity\2021.3.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

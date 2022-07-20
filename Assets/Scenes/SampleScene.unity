@@ -277,11 +277,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _dragInicial: 0
-  _factorDrag: 0.21
-  _fuerzaDeMovimiento: 10
+  _factorDrag: 0.01
+  _fuerzaDeMovimiento: 25
   _velMovimientoMax: 0.5
-  _angularDragInicial: 10
-  _factorAngularDrag: 0.88
+  _angularDragInicial: 25
+  _factorAngularDrag: 0.4
   _fuerzaDeRotacion: 10
   _velRotacionMax: 0.5
 --- !u!54 &578602498
@@ -502,7 +502,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
