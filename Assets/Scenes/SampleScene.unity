@@ -280,7 +280,7 @@ MonoBehaviour:
   _factorDrag: 0.01
   _fuerzaDeMovimiento: 25
   _velMovimientoMax: 0.5
-  _angularDragInicial: 25
+  _angularDragInicial: 7
   _factorAngularDrag: 0.4
   _fuerzaDeRotacion: 10
   _velRotacionMax: 0.5
@@ -313,6 +313,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _prefabBala: {fileID: 3343624778047732171, guid: 3cf2a8c3908a28e41a5721b81117b673, type: 3}
+  _enfriamientoDisparo: 0.3
 --- !u!114 &578602501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -354,7 +355,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 2.29
+  m_Intensity: 1.12
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
