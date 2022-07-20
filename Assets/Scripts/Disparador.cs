@@ -12,7 +12,7 @@ public class Disparador : MonoBehaviour {
 
         if (_temporizador <= 0f) {
             if (Input.GetKeyDown(KeyCode.Space)) {
-                
+
                 Instantiate(_prefabBala, transform.position, transform.rotation);
                 _temporizador = _enfriamientoDisparo;
             }

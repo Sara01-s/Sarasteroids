@@ -47,7 +47,7 @@ public class Nave : MonoBehaviour {
         if (Input.GetKey(KeyCode.UpArrow)) {
             LimitarVelocidad();
 
-            _rb.AddRelativeForce(Vector3.up * _fuerzaDeMovimiento * _dirPositiva);
+            _rb.AddForce(transform.up * _fuerzaDeMovimiento * _dirPositiva);
             _rb.drag = 0f;
             return;
         }
@@ -55,7 +55,7 @@ public class Nave : MonoBehaviour {
         if (Input.GetKey(KeyCode.DownArrow)) {
             LimitarVelocidad();
 
-            _rb.AddRelativeForce(Vector3.up * _fuerzaDeMovimiento * _dirNegativa);
+            _rb.AddForce(transform.up * _fuerzaDeMovimiento * _dirNegativa);
             _rb.drag = 0f;
             return;
         }
